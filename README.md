@@ -1,4 +1,4 @@
-[![Python application test with Github Actions](https://github.com/nogibjj/DETemplatePy/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/DETemplatePy/actions/workflows/main.yml)
+[![Python application test with Github Actions](https://github.com/nogibjj/DataScienceCI_YCLiu/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/DataScienceCI_YCLiu/actions/workflows/main.yml)
 
 ## Generating Descriptive Stats with A Homebrew Pandas-Based Library
 
