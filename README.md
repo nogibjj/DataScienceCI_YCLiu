@@ -1,8 +1,19 @@
 [![Python application test with Github Actions](https://github.com/nogibjj/DETemplatePy/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/DETemplatePy/actions/workflows/main.yml)
 
-## A simple library that generates descriptive stats on Using pandas DataFrame.
+## A Demo for Generating Descriptive Stats with A Homebrew Pandas-Based Library
 
-The statsYC tool contains the following functions to generate stats from pandas DataFrame:
+This repo demonstrates how to use a homebrew library (lib.py, pandas-based) to generate descriptive statistics for pandas DataFrame. The dataset used for demo is extracted from [European Health for All database (HFA-DB)](https://gateway.euro.who.int/en/datasets/european-health-for-all-database/), which contains suicide rate and GDP per capita data for France and Albania from the 1960's to the 2010's.
+
+The structure of the repository is as follows:
+<br>a. **main.ipynb** is a Jupyter Notebook contains demonstration of using the package and example output.
+<br>b. **main.py** contains all the python code used in main.ipynb
+<br><br>All functions were **linted**, **tested**, and **formatted** when pushed to the repository and passed all the steps.
+<br> c. **test_lib.py**: test code for lib.py. **testCase1.csv** is used for test_lib.py.
+<br> d. **test_main.py**: test code for main.py
+<br>
+<br> e. **MAKEFILE**: GitHUb actions for linting, testing and formatting all the **.py** and **.ipynb** files.
+
+<br>Below is a brief **documentation of the homebrew library** (**lib.py**) for generating descriptive stats:
 
 1. **calMean**: returns the **mean** of a numeric column.
   <br> The function takes the following 2 inputs:
@@ -55,7 +66,3 @@ The statsYC tool contains the following functions to generate stats from pandas 
   <br> 3. An item (e.g. a string or a number)
   <br> and it **returns the count and rate of occurrences of an item** of the input item in the input column in the following format (string):
   <br> In *Input* column, the number of occurrences is *CountItemOccurrence*, or *RateOfItemOccurrenceRoundedTo2Digits* of total samples.        
-
-The **outputStats** script applies the **statsYC tool** to generate example summaries to a PDF file (which is **SummaryReport.pdf** in this repository).
-
-<br><br>All functions were **linted**, **tested**, and **formatted** when pushed to the repository and passed all the steps.
