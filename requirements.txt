@@ -1,10 +1,12 @@
 #devops
 black
+boto3
 click
+nbval
 pytest
 pytest-cov
 pylint
-boto3
+ruff
 
 #web
 fastapi
