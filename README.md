@@ -7,11 +7,11 @@ This repo demonstrates how to use a homebrew library (lib.py, pandas-based) to g
 The structure of the repository is as follows:
 <br>a. **main.ipynb** is a Jupyter Notebook containing demonstration of how to use the package and some example output.
 <br>b. **main.py** contains all the python code used in main.ipynb
-<br><br>All functions were **linted**, **tested**, and **formatted** when pushed to the repository and passed all the steps.
+<br><br>All functions were **<em>linted</em>**, **<em>tested</em>**, and **<em>formatted</em>** when pushed to the repository and passed all the steps.
 <br> c. **test_lib.py**: test code for lib.py. **testCase1.csv** is used for test_lib.py.
 <br> d. **test_main.py**: test code for main.py
 <br>
-<br> e. **MAKEFILE**: GitHUb actions for linting, testing and formatting all the **.py** and **.ipynb** files.
+<br> e. **MAKEFILE**: GitHUb actions for **<em>linting</em>**, **<em>testing</em>**, and **<em>formatting</em>** all the **.py** and **.ipynb** files.
 
 <br>Below is a brief **documentation of the homebrew library** (**lib.py**) for generating descriptive stats:
 
