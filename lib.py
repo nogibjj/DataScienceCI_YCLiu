@@ -59,7 +59,8 @@ def calItemRate(df, clmn, item):
     1. A pandas DataFrame 
     2. A column name
     3. An item (e.g. a string or a number)
-    and outputs the number of occurrences of the string over total number of non-None rows in the column.
+    and outputs the number of occurrences of the string over total number 
+    of non-None rows in the column.
     '''        
     if clmn not in df.columns:
         raise ValueError("ValueError. Input column not existed.")
@@ -70,7 +71,7 @@ def printNumStats(df, clmn):
     The function takes the following 2 inputs:
     1. A pandas DataFrame 
     2. A column name
-    and it prints out the mean and median of the numerical column in the following format:
+    and it prints out the mean and median of the column in the following format:
     "In InputColumn column, the mean is *MeanRoundedTo2Digits* 
      and the median is *MedianRoundedTo2Digits*."
     '''    
