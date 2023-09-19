@@ -12,7 +12,7 @@ The repository contains the following scripts:
 <br> c. **test_lib.py**: test code for lib.py. **testCase1.csv** is used for test_lib.py.
 <br> d. **test_main.py**: test code for main.py
 <br>
-<br> e. **.github/workflows/main.yml**: GitHUb actions for **<em>linting</em>**, **<em>testing</em>**, and **<em>formatting</em>** all the **.py** and **.ipynb** files, the executed commands of each action is specified in **MAKEFILE**.
+<br> e. **.github/workflows/main.yml**: GitHUb actions for **<em>installing</em>**, **<em>linting</em>**, **<em>testing</em>**, and **<em>formatting</em>** all the **.py** and **.ipynb** files, the executed commands of each action is specified in **MAKEFILE**.
 
 <br>Below is a brief **documentation of the homebrew library** (**lib.py**) for generating descriptive stats:
 
