@@ -6,12 +6,12 @@ This repo demonstrates how to use a homebrew library (lib.py, pandas-based) to g
 
 The repository contains the following scripts:
 <br>a. **lib.py** is a homebrew python library for generating descriptive statistics for pandas DataFrame.
-<br>a. **main.ipynb**: a Jupyter Notebook containing demonstration of how to use the package and some example output.
-<br>b. **main.py**: a python script containing all the python code used in main.ipynb.
-<br> c. **test_lib.py**: test code for lib.py. **testCase1.csv** is used for test_lib.py.
-<br> d. **test_main.py**: test code for main.py
+<br>b. **main.ipynb**: a Jupyter Notebook containing demonstration of how to use the package and some example output.
+<br>c. **main.py**: a python script containing all the python code used in main.ipynb.
+<br>d. **test_lib.py**: test code for lib.py. **testCase1.csv** is used for test_lib.py.
+<br>e. **test_main.py**: test code for main.py
 <br><br>All functions were **<em>linted</em>**, **<em>tested</em>**, and **<em>formatted</em>** when pushed to the repository and passed all the steps.
-<br> e. **.github/workflows/main.yml**: GitHub actions for **<em>installing required packages</em>**, **<em>linting</em>**, **<em>testing</em>**, and **<em>formatting</em>** all the **.py** and **.ipynb** files, the executed commands of each action is specified in **MAKEFILE**.
+<br>f. **.github/workflows/main.yml**: GitHub actions for **<em>installing required packages</em>**, **<em>linting</em>**, **<em>testing</em>**, and **<em>formatting</em>** all the **.py** and **.ipynb** files, the executed commands of each action is specified in **MAKEFILE**.
 
 <br>Below is a brief **documentation of the homebrew library** (**lib.py**) for generating descriptive stats:
 
