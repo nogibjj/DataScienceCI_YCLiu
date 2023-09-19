@@ -4,7 +4,7 @@
 
 This repo demonstrates how to use a homebrew library (lib.py, pandas-based) to generate descriptive statistics for pandas DataFrame. The dataset used for demo is extracted from [European Health for All database (HFA-DB)](https://gateway.euro.who.int/en/datasets/european-health-for-all-database/), which contains suicide rate and GDP per capita data for France and Albania from the 1960's to the 2010's.
 
-The repository contains the following files:
+The repository contains the following scripts:
 <br>a. **lib.py** is a homebrew python library for generating descriptive statistics for pandas DataFrame.
 <br>a. **main.ipynb**: a Jupyter Notebook containing demonstration of how to use the package and some example output.
 <br>b. **main.py**: a python script containing all the python code used in main.ipynb.
@@ -12,7 +12,7 @@ The repository contains the following files:
 <br> c. **test_lib.py**: test code for lib.py. **testCase1.csv** is used for test_lib.py.
 <br> d. **test_main.py**: test code for main.py
 <br>
-<br> e. **MAKEFILE**: GitHUb actions for **<em>linting</em>**, **<em>testing</em>**, and **<em>formatting</em>** all the **.py** and **.ipynb** files.
+<br> e. **MAKEFILE**: GitHUb actions for **<em>linting</em>**, **<em>testing</em>**, and **<em>formatting</em>** all the **.py** and **.ipynb** files, the executed commands of each action is specified in **.github/workflows/main.yml**.
 
 <br>Below is a brief **documentation of the homebrew library** (**lib.py**) for generating descriptive stats:
 
