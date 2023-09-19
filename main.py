@@ -4,6 +4,7 @@ import lib
 
 # Read dataset from a csv file
 Dataset_raw = pd.read_csv('Dataset.csv')
+print(Dataset_raw.head())
 Dataset = Dataset_raw[(Dataset_raw['YEAR']>=1990)&(Dataset_raw['YEAR']<=2010)].copy()
 
 # Define categorical Variable
